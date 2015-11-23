@@ -122,17 +122,29 @@ Not much to see here.  I basically recycled the code of Mutable Stanzas (http://
 URL's:
                 
 [quotations](http://montaukedp.com/apps/cyrus/quote_poems.html?process=sequential)
+
 [x poems](http://montaukedp.com/apps/cyrus/poems.html?type=X&process=sequential)
+
 [diamond poems](http://montaukedp.com/apps/cyrus/poems.html?type=diamond&process=sequential)
+
 [lattice poems](http://montaukedp.com/apps/cyrus/poems.html?type=lattice&process=sequential)
+
 [quincunx poems](http://montaukedp.com/apps/cyrus/poems.html?type=quincunx&process=sequential)
+
 [one square ornaments](http://montaukedp.com/apps/cyrus/image.html?process=random&type=one_square)
+
 [four square ornaments](http://montaukedp.com/apps/cyrus/image.html?process=random&type=four_square)
+
 [aviation images](http://montaukedp.com/apps/cyrus/image.html?process=random&type=aviation)
+
 [ascii diamond poems](http://montaukedp.com/apps/cyrus/other_poems.html?type=ascii_diamond&process=sequential)
+
 [ascii x poems](http://montaukedp.com/apps/cyrus/other_poems.html?type=ascii_x&process=sequential)
+
 [letter ngrams](http://montaukedp.com/apps/cyrus/other_poems.html?type=letter_ngrams&process=sequential)
+
 [wide ngram poems](http://montaukedp.com/apps/cyrus/other_poems.html?type=keep_sequence_10_8_10_8_10_8_10_8_10&process=sequential)
+
 [narrow ngram poems](http://montaukedp.com/apps/cyrus/other_poems.html?type=keep_sequence_5_4_5_4_5&process=sequential)
 
 
