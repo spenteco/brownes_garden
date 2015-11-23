@@ -12,7 +12,7 @@ This repo reminds me of the joke about the pony ("I know there's a pony in there
 
 ## Corpora and Catalog
 
-No magic here.  Just *Sitzfleisch*.  I thought about a more automated approach, but decided that since *Sitzfleisch* == *done*.
+No magic here.  Just *Sitzfleisch*.  I thought about a more automated approach, but decided that since *Sitzfleisch* == *done*, I'd be done.
 
 Several years ago (three?  four?) I downloaded Project Gutenberg's English text files, downloaded their catalog, and parsed the catalog into CSV.  To select texts, I arranged the columns in the spreadsheet so that the PG-supplied LOC catalog codes were in one column, and then I paged and search through the spreadsheet looking for texts that I thought would work with Browne.  I selected texts which met one or more of several critera: a) Is the text one that Browne knew?  b) Is the text by a contemporary?  c) Is the text about a subject central to *The Garden of Cyrus* (*GoC*)?  d) Was the writer influenced by Browne?  e) Is the text one that I would like to put into dialog with Browne?  I also tossed in four books from the Bible which I thought would work.  The result was about 260 texts: http://localhost/cyrus/bibliography.html
 
