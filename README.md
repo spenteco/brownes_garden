@@ -5,7 +5,7 @@
 This is the code I used to generate *Browne's Garden Commonplace Book* for nanogenmo 2015.
 
 For the PDF, see [http://montaukedp.com/Brownes_Garden_Commonplace_Book.pdf](http://montaukedp.com/Brownes_Garden_Commonplace_Book.pdf).
-For more about the project, see [http://montaukedp.com/posts/browne.html](http://montaukedp.com/posts/browne.htmlhttp://montaukedp.com/posts/browne.html).
+For more about the project, see [http://montaukedp.com/posts/browne.html](http://montaukedp.com/posts/browne.html).
 
 This repo reminds me of the joke about the pony ("I know there's a pony in there somewhere").  Not so much the pony, as the what the pony is (hopefully) buried in.  Still, I learned a few new things.
 
