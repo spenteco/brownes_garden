@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>The Cyrus Commonplace Book</title>
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8'>
+        <meta name="description" content="The Cyrus Commonplace Book">
+        <meta name="keywords" content="Sir Thomas Browne,The Garden of Cyrus,digital poetry">
+        <meta name="author" content="Stephen M. Pentecost">
+        
+        <link href='http://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' type='text/css'>
+        
+        <link href="css/cyrus_image.css" rel="stylesheet" type="text/css">
+        
+		<script src="js/jquery-1.11.0.min.js" charset="utf-8"></script>
+		<script src="js/cyrus_controls.js" charset="utf-8"></script>
+		<script src="js/cyrus_image.js" charset="utf-8"></script>
+        
+    </head>
+    <body>
+
+        <div id="container">
+            <div id="image_container">
+            </div>
+
+            <div id="controls">
+
+                <div class="control_line">
+                    <span id="rewind_widget" class="control_widgets"><img src="img/disabled.rewind.svg"></span>
+                    <span id="pause_widget" class="control_widgets"><a class="control_a" href="javascript:handle_control('pause_widget');"><img src="img/enabled.pause.svg"></a></span>
+                    <span id="play_widget" class="control_widgets"><img src="img/disabled.play.svg"></span>
+                    <span id="forward_widget" class="control_widgets"><img src="img/disabled.forward.svg"></span>
+                </div>
+
+                <div class="control_line">
+                    <!--<span class="control_widgets" id="link_widget"><img src="img/enabled.link.svg"/></span>-->
+                    <span class="control_widgets" id="twitter_widget"><img src="img/enabled.twitter.svg"/></span>
+                    <span class="control_widgets" id="github_widget"><img src="img/enabled.github.svg"/></span>
+                    <span class="control_widgets" id="text_widget"><img src="img/enabled.text.svg"/></span>
+                    <span class="control_widgets" id="about_widget"><img src="img/enabled.about.svg"/></span>
+                </div>
+
+                <div class="control_content">
+                    <div id="control_title">Browne's Garden</div>
+                    <div id="control_subtitle">Commonplace Book</div>
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="hidden_controls_container">
+                
+            <span id="disabled_about_widget"><img src="img/disabled.about.svg"/></span>
+            <span id="disabled_forward_widget"><img src="img/disabled.forward.svg"/></span>
+            <span id="disabled_github_widget"><img src="img/disabled.github.svg"/></span>
+            <span id="disabled_link_widget"><img src="img/disabled.link.svg"/></span>
+            <span id="disabled_pause_widget"><img src="img/disabled.pause.svg"/></span>
+            <span id="disabled_play_widget"><img src="img/disabled.play.svg"/></span>
+            <span id="disabled_rewind_widget"><img src="img/disabled.rewind.svg"/></span>
+            <span id="enabled_about_widget"><img src="img/enabled.about.svg"/></span>
+            <span id="enabled_forward_widget"><img src="img/enabled.forward.svg"/></span>
+            <span id="enabled_github_widget"><img src="img/enabled.github.svg"/></span>
+            <span id="enabled_link_widget"><img src="img/enabled.link.svg"/></span>
+            <span id="enabled_pause_widget"><img src="img/enabled.pause.svg"/></span>
+            <span id="enabled_play_widget"><img src="img/enabled.play.svg"/></span>
+            <span id="enabled_rewind_widget"><img src="img/enabled.rewind.svg"/></span>
+            <span id="enabled_twitter_widget"><img src="img/enabled.twitter.svg"/></span>
+            <span id="enabled_text_widget"><img src="img/enabled.text.svg"/></span>
+            
+        </div>
+
+
+    </body>
+</html>

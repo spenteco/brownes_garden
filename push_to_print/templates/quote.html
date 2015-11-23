@@ -1,0 +1,19 @@
+<div class="poem_container">
+    <p class="cyrus_sentence">${sentence_data[0][0]}</p>
+    <p class="other_sentence_source">
+        % if sentence_data[0][1] > '':
+            <span class="author">${sentence_data[0][1]}</span>
+        % endif
+        <span class="title">${sentence_data[0][2]}</span>
+    </p>
+    % for d in sentence_data[1:]:
+        <p class="other_sentence">${d[0]}</p>
+        <p class="other_sentence_source">
+            % if d[1] > '':
+                <span class="author">${d[1]}</span>
+            % endif
+            <span class="title">${d[2]}</span>
+        </p>
+    % endfor
+    <!--<p class="record_key">${key[0]} ${key[1]} ${key[2]}</p>-->
+</div>

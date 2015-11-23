@@ -1,0 +1,78 @@
+
+body {
+}
+
+.verso {
+    width: 39%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.recto {
+    width: 39%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-left: 1px solid #999999;
+}
+
+.page_break {
+    clear: both;
+}
+                
+/*@media all {
+    .page_break	{
+        display: none; 
+    }
+}
+*/
+
+@media print {
+    .page_break	{
+        display: block; 
+        page-break-before: always; 
+    }
+}
+
+@page {
+    margin: 
+    0in;
+}
+
+.source_citation {
+    padding-left: 10px;
+    text-indent: -10px ;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 8px;
+    color: #111111;
+    margin: 0;
+}
+
+.cyrus_sentence {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.other_sentence {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+}
+
+.other_sentence_source {
+    padding-left: 10px;
+    text-indent: -10px ;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 8px;
+    color: #111111;
+    margin: 0;
+}
+
+.title {
+    font-style: italic;
+}

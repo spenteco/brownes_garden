@@ -1,0 +1,17 @@
+<div class="poem_container">
+    <div class="other_poem_div">
+        <pre class="other_poem_pre ${poem_type}">
+            % for i, line in enumerate(poem):
+${line}
+            % endfor
+        </pre>
+    </div>
+<!--
+    <div class="ascii_citation">
+    % for d in sources:
+        ${d}
+    % endfor
+    </div>
+-->
+    <!--<p class="record_key">${key[0]} ${key[1]} ${key[2]}</p>-->
+</div>

@@ -1,0 +1,19 @@
+<div class="poem_container">
+    <div class="poem_div">
+        <svg height="600" width="400">
+        % for y in range(0, len(poem[0])):
+            % for x in range(0, len(poem)):
+                <text x="${positions[x][y][0]}" y="${positions[x][y][1]}">${poem[x][y]}</text>
+            % endfor
+        % endfor
+        </svg>
+    </div>
+<!--
+    <div class="source_citations">
+    % for d in sources:
+        ${d}
+    % endfor
+    </div>
+    <p class="record_key">${key[0]} ${key[1]} ${key[2]}</p>
+-->
+</div>

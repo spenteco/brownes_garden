@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Brownes_Garden_Commonplace_Book</title>
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8'>
+        <meta name="description" content="The Cyrus Commonplace Book">
+        <meta name="keywords" content="Sir Thomas Browne,The Garden of Cyrus,digital poetry">
+        <meta name="author" content="Stephen M. Pentecost">
+        
+        <link href='http://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:700' rel='stylesheet' type='text/css'>
+        
+        <link href="resources/push_page.css" rel="stylesheet" type="text/css">
+        
+		<script src="resources/jquery-1.11.0.min.js" charset="utf-8"></script>
+		<script src="resources/imagesloaded.pkgd.js" charset="utf-8"></script>
+		<script src="resources/push_page.js" charset="utf-8"></script>
+        
+    </head>
+    <body>
+
+% for opening in content:
+    <div class="verso">${opening[0]}</div>
+    <div class="recto">${opening[1]}</div>
+    <div class="page_break"> </div>
+% endfor
+${bibliography}
+    </body>
+</html>

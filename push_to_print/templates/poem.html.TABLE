@@ -1,0 +1,13 @@
+<div class="poem_container">
+    <div class="poem_div">
+        <table>
+        % for y in range(0, len(poem[0])):
+            <tr>
+            % for x in range(0, len(poem)):
+                <td>${poem[x][y]}</td>
+            % endfor
+            </tr>
+        % endfor
+        </table>
+    </div>
+</div>

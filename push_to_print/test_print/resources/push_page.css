@@ -1,0 +1,416 @@
+
+body {
+    font-size: 16px;
+}
+
+.verso {
+    width: 49%;
+    float: left;
+}
+
+.recto {
+    width: 49%;
+    float: left;
+}
+
+.page_break {
+    clear: both;
+}
+
+@media print {
+    .page_break {
+        page-break-after: always;
+    }
+}
+
+.verso > .poem_container {
+    padding-right: 30px;
+}
+
+.recto > .poem_container {
+    padding-left: 30px;
+}
+
+.recto > .poem_container > .cyrus_sentence {
+    padding-right: 50px;
+}
+
+.recto > .poem_container > .other_sentence {
+    padding-right: 50px;
+}
+
+.recto > .poem_container > .other_sentence_source {
+    padding-right: 50px;
+}
+
+.cyrus_sentence {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.other_sentence {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+}
+
+.other_sentence_source {
+    margin-left: 20px;
+    padding-left: 20px;
+    text-indent: -20px ;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 8px;
+    color: #111111;
+}
+
+.source_citations {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.ascii_citation {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.source_citation {
+    padding-left: 20px;
+    text-indent: -20px ;
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 8px;
+    color: #111111;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.stanza_line {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #111111;
+    margin: 0;
+}
+
+.indent_line {
+    padding-left: 20px;
+}
+
+.other_poem_div {
+}
+
+.other_poem_stanza {
+    margin-bottom: 10px;
+}
+
+.other_poem_pre {
+}
+
+.verso > .poem_container {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.recto > .poem_container {
+    margin-top: 60px;
+}
+
+.verso > .poem_container > .other_poem_div > .ascii_diamond {
+    font-family: monospace;
+    font-size: 14px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.recto > .poem_container > .other_poem_div > .ascii_diamond {
+    font-family: monospace;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.verso > .poem_container > .other_poem_div > .ascii_x {
+    font-family: monospace;
+    font-size: 14px;
+    margin-left: 50px
+}
+
+.recto > .poem_container > .other_poem_div > .ascii_x {
+    font-family: monospace;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.verso > .poem_container > .other_poem_div > .letter_ngrams {
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 40px;
+}
+
+.recto > .poem_container > .other_poem_div > .letter_ngrams {
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+.keep_sequence_10_8_10_8_10_8_10_8_10 {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.keep_sequence_5_4_5_4_5 {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 14px;
+    margin-left: 75px;
+}
+
+
+.title {
+    font-style: italic;
+}
+
+td {
+    vertical-align: top;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.radio_buttons {
+    width: 175px;
+}
+
+.record_key {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 8px;
+    color: #111111;
+}
+
+.aviation {   
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.bands {   
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.one_square {   
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.four_square {   
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.matching_word {
+    font-weight: bold;
+    color: #111111;
+}
+
+table {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 10px;
+    font-weight: bold;
+    color: #111111;
+    font-variant: small-caps;
+    margin-top: 100px;
+}
+
+text {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #111111;
+    font-variant: small-caps;
+    margin-top: 100px;
+}
+
+td {
+    width: 10px;
+    height: 30px;
+}
+
+.recto > .svg_poem_container {
+    padding-left: 30px;
+}
+
+.title_page_title {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 36px;
+    font-weight: bold;
+    color: #111111;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.title_page_subtitle {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 32px;
+    font-weight: bold;
+    color: #111111;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.title_page_author {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 24px;
+    color: #111111;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+.title_page_publisher {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.pi_printing_date {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    font-variant: small-caps;
+    padding-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+
+.pi_copyright {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+}
+
+.pi_statement {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.frontispiece_container {
+    margin-left: 50px;
+}
+
+.frontispiece_prose {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 16px;
+    color: #111111;
+    margin-right: 50px;
+}
+
+.frontispiece_source {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+
+.concluding_first_p {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 14px;
+    color: #111111;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+}
+
+.concluding_lucan {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 14px;
+    color: #111111;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.concluding_last_p {
+    font-family: 'Libre Baskerville', serif;  
+    font-size: 14px;
+    color: #111111;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.concluding_citation {
+    font-family: 'Libre Baskerville', serif;  
+    font-size: 14px;
+    color: #111111;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+
+.bibliography_container {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bib_prose {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.verso > .bibliography_container > .bib_entry {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    padding-left: 20px;
+    text-indent: -20px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.recto > .bibliography_container > .bib_entry {
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 12px;
+    color: #111111;
+    padding-left: 20px;
+    text-indent: -20px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,58 @@
+
+body {
+    font-size: 16px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    vertical-align: top;
+}
+
+.cyrus_sentence {
+    font-weight: bold;
+}
+
+.cyrus_sentence_div {
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 1px;
+    width: 800px;
+}
+
+.cyrus_sentence_div {
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 1px;
+    background-color: #ffffff;
+    width: 800px;
+}
+
+.other_sentences_div {
+    padding-top: 200px;
+    width: 800px;
+}
+
+.other_sentence {
+    margin-left: 20px;
+}
+
+.other_sentence_details {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+td {
+    vertical-align: top;
+}
+
+p {
+    margin-top: 0px;
+}
+
+.radio_buttons {
+    width: 175px;
+}

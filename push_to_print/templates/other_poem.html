@@ -1,0 +1,23 @@
+<div class="poem_container">
+    <div class="other_poem_div">
+    % for stanza in poem:
+        <div class="other_poem_stanza ${poem_type}">
+            % for i, line in enumerate(stanza):
+                % if i % 2 == 0:
+                    <p class="no_indent_line stanza_line">${line}</p>
+                % else:
+                    <p class="indent_line stanza_line">${line}</p>
+                % endif
+            % endfor
+        </div>
+    % endfor
+    </div>
+<!--
+    <div class="source_citations">
+    % for d in sources:
+        ${d}
+    % endfor
+    </div>
+-->
+    <!--<p class="record_key">${key[0]} ${key[1]} ${key[2]}</p>-->
+</div>
